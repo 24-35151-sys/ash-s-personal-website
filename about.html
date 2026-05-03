@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ashley Calalo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-section {
+            background: rgb(216, 227, 216);
+            padding: 40px 50px;
+            display: flex;
+            gap: 40px;
+            align-items: flex-start;
+        }
+        .about-image img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border: 3px solid #333;
+        }
+        .about-content {
+            flex: 1;
+        }
+        .about-content h2 {
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .info-item {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .info-item strong {
+            color: #347b51;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-left">
+                <a href="aashcll.html" class="btn">HOME</a>
+                <a href="about.html" class="btn active">ABOUT</a>
+                <a href="education.html" class="btn">EDUCATION</a>
+            </div>
+            <div class="nav-right">
+                <a href="portfolio.html" class="btn">PORTFOLIO</a>
+                <a href="contact.html" class="btn">CONTACT</a>
+                <a href="#" class="icon-btn">📸</a>
+                <a href="#" class="icon-btn">🌐</a>
+                <a href="#" class="icon-btn">ⓕ</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-section">
+            <div class="about-image">
+                <img src="image.jpg" alt="Ashley Calalo">
+            </div>
+            <div class="about-content">
+                <h2>ABOUT ME</h2>
+                <p>Hello! I’m Ashley B. Calalo, a passionate computer engineering student specializing in software and hardware development. I enjoy building systems that bring ideas to life through technology and innovation.</p>
+                <p>My journey in the tech field started with a curiosity for how computers work, and it has grown into a deep passion for creating efficient, meaningful, and impactful digital solutions.</p>
+                
+                <div class="info-grid">
+                    <div class="info-item"><strong>Name:</strong> Ashley B. Calalo</div>
+                    <div class="info-item"><strong>Age:</strong> 20 years old</div>
+                    <div class="info-item"><strong>Course:</strong> Bachelor in Computer Engineering Technology</div>
+                    <div class="info-item"><strong>Location:</strong> 083 San Benito, Lipa City, Philippines 4217</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
